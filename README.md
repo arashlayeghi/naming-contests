@@ -6,9 +6,9 @@ To run this Application after cloning on your machine:
 - Write “npm install” to install all the dependencies
 - Install "babel-node" globally using "sudo npm install -g babel-cli"
 - load and update data in your MongoDB database with these two scripts:
-  "babel-node loadTestData.js"
-  and the
-   "babel-node updateTestData.js"
+    *"babel-node loadTestData.js"*
+  and then
+   *"babel-node updateTestData.js"*
 - Run Webpack using "npm run dev"
 - Run the application using "npm start"
 - Open a browser on http://localhost:8080
