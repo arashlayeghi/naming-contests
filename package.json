@@ -1,0 +1,51 @@
+{
+  "name": "fulljs",
+  "version": "1.0.0",
+  "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js by both Express.js and Koa.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node koaServer.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arashlayeghi/naming-contests.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/arashlayeghi/naming-contests/issues"
+  },
+  "homepage": "https://github.com/arashlayeghi/naming-contests#readme",
+  "dependencies": {
+    "axios": "^0.15.0",
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "json-loader": "^0.5.4",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-ejs": "^4.1.2",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-sass": "^2.0.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^2.2.10",
+    "node-sass-middleware": "^0.9.8",
+    "prop-types": "^15.6.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-eslint": "^7.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-2": "^6.17.0",
+    "eslint": "^3.7.1",
+    "eslint-plugin-react": "^6.4.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^1.13.2"
+  }
+}
